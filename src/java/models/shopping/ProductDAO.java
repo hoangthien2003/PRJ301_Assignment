@@ -31,6 +31,7 @@ public class ProductDAO {
     private static final String TOTAL_PRODUCT = "SELECT count(*) FROM tblProducts";
     private static final String GET_INDEX_TO_PADDING_PRODUCT = "SELECT * FROM tblProducts ORDER BY productID OFFSET ? ROWS FETCH NEXT 5 ROWS ONLY;";
     
+    
     public List<ProductDTO> getListProduct() throws SQLException {
         List<ProductDTO> listProduct = new ArrayList<>();
         Connection conn = null;

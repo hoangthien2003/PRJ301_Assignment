@@ -107,6 +107,7 @@
                         <a href="MainController?action=Signup" class="signup-link" style="font-size: 13px">Sign up now</a>
                     </div>
                     <a href="MainController?action=Home" class="signup-link mt-3" style="font-size: 13px">Back to Tien's farm</a>
+                    <a href="MainController?action=ShowUser">Show Top 1 User</a>
                 </div>
             </div>
         </div>

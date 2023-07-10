@@ -3,12 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Study/PRJ301/PRJ301_Assignment/src/java/controllers/GoogleController.java</file>
+            <file>file:/D:/Study/PRJ301/PRJ301_Assignment/src/java/controllers/MainController.java</file>
+            <file>file:/D:/Study/PRJ301/PRJ301_Assignment/src/java/models/user/UserDAO.java</file>
             <file>file:/D:/Study/PRJ301/PRJ301_Assignment/web/user/user.jsp</file>
             <file>file:/D:/Study/PRJ301/PRJ301_Assignment/web/login/login.jsp</file>
-            <file>file:/D:/Study/PRJ301/PRJ301_Assignment/src/java/controllers/CheckoutController.java</file>
-            <file>file:/D:/Study/PRJ301/PRJ301_Assignment/src/java/controllers/LoginController.java</file>
-            <file>file:/D:/Study/PRJ301/PRJ301_Assignment/src/java/controllers/CartController.java</file>
+            <file>file:/D:/Study/PRJ301/PRJ301_Assignment/src/java/models/shopping/ProductDAO.java</file>
+            <file>file:/D:/Study/PRJ301/PRJ301_Assignment/src/java/controllers/ShowUserController.java</file>
+            <file>file:/D:/Study/PRJ301/PRJ301_Assignment/web/home/showUser.jsp</file>
         </group>
     </open-files>
 </project-private>

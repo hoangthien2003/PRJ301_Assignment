@@ -46,6 +46,8 @@ public class MainController extends HttpServlet {
     private static final String CHECKOUT_CONTROLLER = "CheckoutController";
     private static final String PROFILE_VIEW = "ViewProfile";
     private static final String PROFILE_CONTROLLER = "ProfileController";
+    private static final String SHOW_USER = "ShowUser";
+    private static final String SHOW_USER_CONTROLLER = "ShowUserController";
     
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -79,6 +81,8 @@ public class MainController extends HttpServlet {
                 url = CHECKOUT_CONTROLLER;
             } else if (PROFILE_VIEW.equals(action)) {
                 url = PROFILE_CONTROLLER;
+            } else if (SHOW_USER.equals(action)) {
+                url = SHOW_USER_CONTROLLER;
             }
         } catch (Exception e) {
             log("Error at MainController: " + e.toString());
