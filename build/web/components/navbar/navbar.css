@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 25, 2023, 11:31:02 PM
+    Author     : hoang
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --nav-hover: #def2fc;
+    --nav-hover-logout: #d5dee3;
+}
+
+.nav-icon {
+    margin: 0.4675rem;
+}
+
+.nav-icon-pointer {
+    cursor: pointer;
+}
+
+.nav-right {
+    transition: background-color 0.1s;
+    border-radius: 6px;
+    padding: 0.5rem
+}
+
+.nav-hover {
+    background-color: var(--nav-hover);
+}
+
+.nav-hover-logout {
+    background-color: var(--nav-hover-logout)
+}
+
+body {
+    padding-top: 72px; /* Để tránh nội dung trang bị che phủ bởi thanh nav */
+}
+
+.nav-auth {
+    text-decoration: none;
+}
+
+.nav-auth:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 991.98px) {
+    body {
+        padding-top: 56px;
+    }
+}
